@@ -1,0 +1,67 @@
+body {
+    background: url("../image/vignettes/background.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    text-align: center;           
+    margin: 20px 0;            
+}
+.menu a {
+    all: unset;             
+    display: inline-block;     
+    color: rgb(252, 251, 255);                
+    background-color: rgb(109, 31, 77);    
+    padding: 10px 20px;
+    border-radius: 5px; 
+    margin: 5px;             
+    cursor: pointer;              
+    text-align: center;
+    transition: 4ms;           
+}
+.menu a:hover{
+    transform: scale(1.1);
+    background-color: rgb(132, 140, 221);
+    color: white;
+}
+h1, h2, p, .liens-sociaux {
+    text-align: center;
+}
+figure {
+  text-align: center; 
+  margin: 20px auto;  
+}
+
+figure img {
+  display: block;     
+  margin: 0 auto;    
+  max-width: 100%;    
+  height: auto;       
+}
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 90px;
+  text-decoration: none;
+}
+footer {
+  background: linear-gradient(to bottom, #00c6ff, #003399);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 90px;
+  text-decoration: none;
+}

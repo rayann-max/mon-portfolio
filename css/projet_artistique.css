@@ -1,0 +1,83 @@
+body {
+    background: url(../image/vignettes/background.jpg);
+    background-size: cover;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.galerie {
+    text-align: center;
+}
+.galerie img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+h1, h2, p, .liens-sociaux {
+    text-align: center;
+}
+.menu {
+    text-align: center;           
+    margin: 20px 0;            
+}
+.menu a {
+    all: unset;             
+    display: inline-block;     
+    color: white;                
+    background-color: rgb(150, 66, 118);    
+    padding: 10px 20px;
+    border-radius: 5px; 
+    margin: 5px;             
+    cursor: pointer;              
+    text-align: center;  
+    transition: 4ms;         
+}
+.menu a:hover{
+  transform: scale(1.1);
+  background-color: rgb(132, 140, 221);
+  color: white;
+}
+.galerie {
+  display: flex;
+  flex-wrap: wrap;      
+  justify-content: center; 
+  gap: 20px;              
+  margin-top: 20px;
+}
+
+figure {
+  text-align: center;     
+}
+
+.galerie img {
+  width: 250px;            
+  height: 200px;
+  object-fit: cover;    
+  border-radius: 10px;
+}
+
+figcaption {
+  margin-top: 5px;
+  font-size: 16px;
+  color: white;
+}
+footer {
+  background: linear-gradient(to bottom, #00c6ff, #003399);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 90px;
+  text-decoration: none;
+}
+main { flex: 1; }
