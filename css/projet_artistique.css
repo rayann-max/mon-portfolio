@@ -14,10 +14,12 @@ body {
 .galerie {
     text-align: center;
 }
-.galerie img {
-    width: 200px;
-    margin: 10px;
-    border-radius: 10px;
+.galerie {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    place-items: center;
 }
 h1, h2, p, .liens-sociaux {
     text-align: center;
@@ -80,4 +82,5 @@ footer {
   font-size: 90px;
   text-decoration: none;
 }
+
 main { flex: 1; }
