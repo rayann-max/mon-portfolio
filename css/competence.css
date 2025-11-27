@@ -2,44 +2,44 @@ body {
     background: url("../image/vignettes/background.jpg");
     background-size: cover;
     background-position: center;
-    color: black;
     background-repeat: no-repeat;
-    height: 100vh;
     margin: 0;
-}
-body {
     font-family: Arial, sans-serif;
+    min-height: 100vh;
 }
+
 
 .menu {
     display: flex;           
     justify-content: center; 
+    flex-wrap: wrap;          
     gap: 10px;               
     margin: 20px 0;
 }
 
 .menu a {
-    flex-grow: 1;        
-    display: block;        
+    display: block;           
     text-align: center;     
     color: white;
     background-color: rgb(150, 66, 118);
-    padding: 10px 0;
+    padding: 10px 15px;
     border-radius: 5px;
     text-decoration: none;  
-    transition: 4ms; 
+    transition: 0.3s ease;
+    width: 150px;           
+    margin: 5px;
 }
-.menu a:hover{
-    background-color:rgb(132, 140, 221);
-    color: white;
-    transform: scale(1.1);
+
+.menu a:hover {
+    background-color: rgb(132, 140, 221);
+    transform: scale(1.05);
 }
 
 h1, h2, p, .liens-sociaux, li {
     text-align: center;
     list-style: none;
 }
-li ::before{background: url(../image/vignettes/photo.jpeg);}
+
 footer {
   background: linear-gradient(to bottom, #00c6ff, #003399);
   color: white;
@@ -50,6 +50,6 @@ footer {
 .social-icons a {
   color: white;
   margin: 0 10px;
-  font-size: 90px;
+  font-size: 50px; 
   text-decoration: none;
 }
