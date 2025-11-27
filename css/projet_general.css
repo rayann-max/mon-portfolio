@@ -4,7 +4,7 @@ body {
     background-position: center;
     color: white;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
 }
 body {
@@ -25,7 +25,8 @@ body {
     margin: 5px;             
     cursor: pointer;              
     text-align: center;
-    transition: 4ms;           
+    transition: 4ms;
+    flex-wrap: wrap;            
 }
 .menu a:hover{
     transform: scale(1.1);
