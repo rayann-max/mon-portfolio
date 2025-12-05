@@ -10,7 +10,9 @@ body {
 body {
     font-family: Arial, sans-serif;
 }
-
+.sr-only {
+    display: none;
+}
 .photo {
     background: url("../image/vignettes/photo.jpeg");
     background-position: center;
@@ -124,3 +126,4 @@ footer {
   font-size: 90px;
   text-decoration: none;
 }
+
